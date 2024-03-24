@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import { useNavigate, Link } from 'react-router-dom';
+import viteimg from '../../public/vite.svg';
 const Homecomponents = () => {
     const [clickCount, setClickCount] = useState(0);
     const navigateTo = useNavigate();
@@ -29,7 +30,7 @@ const goto =() =>{
     <div class="flex flex-wrap -m-4">
       <div  class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link to="/login" class="block relative h-48 rounded overflow-hidden" onClick={goto}>
-          <img  alt="ecommerce" class="object-cover object-center w-full h-full block" src="/public/vite.svg"/>
+          <img  alt="ecommerce" class="object-cover object-center w-full h-full block" src={viteimg}/>
         </Link>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
