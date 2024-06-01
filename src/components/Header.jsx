@@ -18,17 +18,15 @@ const Header = () => {
     <>
 
 <header class="text-gray-400 bg-gray-900 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
       <a onClick={gotohome} class="mr-5 hover:text-white cursor-pointer" >Home</a>
       <a onClick={gotologin} class="mr-5 hover:text-white cursor-pointer">Login</a>
-      <a onClick={gotodata} class="mr-5 hover:text-white cursor-pointer">Third Link</a>
-      <a class="hover:text-white cursor-pointer">Fourth Link</a>
+      {/* <a onClick={gotodata} class="mr-5 hover:text-white cursor-pointer">Third Link</a> */}
+      {/* <a class="hover:text-white cursor-pointer">Fourth Link</a> */}
     </nav>
     <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
-      <img className='border-black rounded-full w-24' src="/public/infi.png" alt="" />
-        
-      <span class="ml-3 text-xl xl:block lg:hidden">Tailblocks</span>
+      <span class="pacifico-regular  ml-3 text-xl xl:block lg:hidden">Sample store App</span>
     </a>
     <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
