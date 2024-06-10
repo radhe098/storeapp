@@ -1,10 +1,11 @@
 import React from "react";
+
   import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
       <div className="Footer flex flex-col justify-between pt-4 h-[48vh] w-auto bg-gray-800">
-        <div className="toper flex flex-row flex-wrap justify-around gap-4">
+        <div className=" flex flex-row flex-wrap justify-around mt-12  gap-4">
           <div className="socials w-auto gap-2 flex flex-col pl-4">
             <h1 className="text-white font-ubantu ">Find Us </h1>
             <a href="">
@@ -34,7 +35,7 @@ const Footer = () => {
             <h3 className="text-lg" >Can I bring my dog with me?</h3>
           </div>
         </div>
-        <div className="bottom text-center">
+        <div className="bottom mb-8 text-center">
         <h3 className="text-lg text-white lowercase " >Council of Connection and Commission©2024 <span></span></h3>
         </div>
       </div>
